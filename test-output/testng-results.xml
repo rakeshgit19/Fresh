@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[lunch success]]>
+    </line>
+    <line>
+      <![CDATA[lunch success]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="279742" started-at="2024-05-17T10:30:20Z" finished-at="2024-05-17T10:35:00Z">
+    <groups>
+    </groups>
+    <test name="Test on chrome" duration-ms="250673" started-at="2024-05-17T10:30:20Z" finished-at="2024-05-17T10:34:31Z">
+      <class name="Fresh.NewTest">
+        <test-method status="PASS" signature="lunch(java.lang.String)[pri:0, instance:Fresh.NewTest@721e0f4f]" name="lunch" is-config="true" duration-ms="237156" started-at="2024-05-17T16:00:20Z" finished-at="2024-05-17T16:04:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[lunch success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lunch -->
+        <test-method status="PASS" signature="login()[pri:1, instance:Fresh.NewTest@721e0f4f]" name="login" duration-ms="10347" started-at="2024-05-17T16:04:17Z" description="verify login" finished-at="2024-05-17T16:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Fresh.NewTest@721e0f4f]" name="logout" is-config="true" duration-ms="3124" started-at="2024-05-17T16:04:28Z" finished-at="2024-05-17T16:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Fresh.NewTest -->
+    </test> <!-- Test on chrome -->
+    <test name="Test on firefox" duration-ms="279742" started-at="2024-05-17T10:30:20Z" finished-at="2024-05-17T10:35:00Z">
+      <class name="Fresh.NewTest">
+        <test-method status="PASS" signature="lunch(java.lang.String)[pri:0, instance:Fresh.NewTest@5e025e70]" name="lunch" is-config="true" duration-ms="255677" started-at="2024-05-17T16:00:20Z" finished-at="2024-05-17T16:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[lunch success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lunch -->
+        <test-method status="PASS" signature="login()[pri:1, instance:Fresh.NewTest@5e025e70]" name="login" duration-ms="16217" started-at="2024-05-17T16:04:36Z" description="verify login" finished-at="2024-05-17T16:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="logout()[pri:0, instance:Fresh.NewTest@5e025e70]" name="logout" is-config="true" duration-ms="0" started-at="2024-05-17T16:04:52Z" finished-at="2024-05-17T16:04:52Z">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[Origin element is not displayed
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAKESH', ip: '172.20.10.3', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.11.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240506144012, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:platformVersion: 6.2, moz:processID: 3504, moz:profile: C:\Users\CHANDAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 083bf5c7-de1a-4a67-91c8-ae2074873ec7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element is not displayed
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'RAKESH', ip: '172.20.10.3', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 115.11.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240506144012, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:platformVersion: 6.2, moz:processID: 3504, moz:profile: C:\Users\CHANDAN\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 083bf5c7-de1a-4a67-91c8-ae2074873ec7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:614)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:640)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:596)
+	at Fresh.NewTest.logout(NewTest.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:709)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Fresh.NewTest -->
+    </test> <!-- Test on firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

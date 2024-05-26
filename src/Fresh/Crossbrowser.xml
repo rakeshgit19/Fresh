@@ -1,0 +1,16 @@
+<suite name ="Fresh">
+<test name = "Firefoxbrowser">
+<parameter name = "browser" value = "firefox"/>
+<classes>
+<class name = "Fresh.NewTest">
+</class>
+</classes>
+</test>
+<test name = "Chromebrowser">
+<parameter name = "browser" value = "chrome"/>
+<classes>
+<class name = "Fresh.NewTest">
+</class>
+</classes>
+</test>
+</suite>
