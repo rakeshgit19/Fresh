@@ -11,7 +11,9 @@ public class Test {
 		System.setProperty("WebDriver.chrome.driver", "D:\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		//driver.get("http://google.com");
-		Properties pr = new Properties();
+		
+	
+	
 		
 
 	}
